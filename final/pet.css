@@ -11,13 +11,9 @@ table {
     font-family: 'Fredoka One', cursive;
 }
 
-ul {
+ul.nav {
     background-color: rgba(168, 230, 207, 0.6);
-    height: 50px;
-}
-
-img {
-    height: 150px;
+    height: 45px;
 }
 
 table {
@@ -37,6 +33,15 @@ button {
     margin-top: 20px;
 }
 
+#murmur {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 255, 139, 148, 0.6);
+}
+
 #bg {
     position: fixed;
     left: 0;
@@ -51,7 +56,7 @@ button {
     text-align: center;
     padding-top: 25px;
     width: 300px;
-    height: 150px;
+    height: 200px;
     background: #ffd3b6;
     border-radius: 3px;
     box-shadow: 2px 2px rgba(0, 0, 0, 3);
@@ -59,4 +64,15 @@ button {
 
 #hamster {
     position: absolute;
+    height: 150px;
+}
+
+#seed {
+    margin-top: 300px;
+    margin-left: 800px;
+    height: 200px;
+}
+
+.myMOUSE {
+    cursor: pointer;
 }

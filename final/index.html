@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home|小倉鼠</title>
+    <title>Home||小倉鼠</title>
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -18,7 +18,10 @@
 <body>
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link active" target="_new" title="另開視窗" href="about.html">About</a>
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_new" title="另開視窗" href="about.html">About</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" target="_new" title="另開視窗" href="credits.html">Credits</a>
@@ -27,18 +30,27 @@
     </ul>
     <div id="container">
         <img id="hamster" src="./image/一團小倉鼠.png" alt="預設小倉鼠">
+        <img id="seed" class="myMOUSE" title="點我！" src="./image/sunflower_seeds_PNG3.png" alt="向日葵的種子">
     </div>
     <button id="bu" type="button" class="btn btn-outline-success">↑</button>
     <button id="bd" type="button" class="btn btn-outline-success">↓</button>
     <button id="bl" type="button" class="btn btn-outline-success">←</button>
     <button id="br" type="button" class="btn btn-outline-success">→</button>
     <button id="feed" type="button" class="btn btn-outline-warning">Feed</button>
-    <!-- alterbox -->
+
+    <!-- alterbox-bg -->
     <button id="click" type="button" class="btn btn-outline-info">?</button>
     <div id="bg">
         <div id="alterBox">
-            <p>說明文字</p>
+            <p>歡迎來到小倉鼠的家！<br> 你可以用方向鍵控制小老鼠<br>或是點選<span>Feed</span>餵食牠</p>
             <button id="ok" type="button " class="btn btn-outline-info ">OK</button>
+        </div>
+    </div>
+    <!-- alterbox-murmur -->
+    <div id="murmur">
+        <div id="alterBox">
+            <p id="mur_text">不要亂戳！</p>
+            <button id="oh" type="button " class="btn btn-outline-info ">oh</button>
         </div>
     </div>
 </body>
