@@ -15,7 +15,7 @@ Credit頁面則列出參考資料與使用的圖片來源。
 ##餵食、點擊小倉鼠
 利用attr()更換小倉鼠進食和被戳擊的圖片。
 ##猜數字遊戲
-使用Math.foor()、Math.random()、parseInt()、if條件式還有window.alert()來跳出並執行猜數字的遊戲視窗。
+先以hover()和cursor(css語法)使得游標移到向日葵種子時會改變為pointer，再使用Math.foor()、Math.random()、parseInt()、if條件式還有window.alert()來跳出並執行猜數字的遊戲視窗。
 ##顯示與隱藏說明框
 利用hide()、click()、fadeIn()、fadeOut()來顯示、隱藏說明框，讓使用者可以點擊按鈕來查看說明。
 
