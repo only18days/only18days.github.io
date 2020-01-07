@@ -75,10 +75,13 @@ $(function() {
 $(function() {
     $("#murmur").hide();
     $("#hamster").click(function() {
+        $("#hamster").attr("src", "./image/摀臉小倉鼠.png");
         $("#murmur").fadeIn(300);
+
     });
     $("#oh").click(function() {
         $("#murmur").fadeOut(300);
+        $("#hamster").attr("src", "./image/一團小倉鼠.png");
     });
 });
 
